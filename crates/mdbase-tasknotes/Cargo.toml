@@ -1,0 +1,18 @@
+[package]
+name = "mdbase-tasknotes"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Madame Labs: semântica de tarefa e utilitários locais sobre o mdbase (não faz parte do mdbase-dev)"
+publish = false
+
+[[bin]]
+name = "mdbase-local"
+path = "src/bin/mdbase-local.rs"
+
+[dependencies]
+clap.workspace = true
+mdbase-command = { path = "../mdbase-command" }
+serde_json.workspace = true

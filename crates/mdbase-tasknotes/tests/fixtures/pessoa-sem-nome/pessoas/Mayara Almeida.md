@@ -1,0 +1,4 @@
+---
+type: person
+role: teste
+---

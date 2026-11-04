@@ -1480,6 +1480,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "mdbase-tasknotes"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "mdbase-command",
+ "serde_json",
+]
+
+[[package]]
 name = "mdbase-testbed-adapter"
 version = "0.0.0"
 dependencies = [

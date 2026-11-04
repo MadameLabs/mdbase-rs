@@ -28,6 +28,7 @@ members = [
     "crates/mdbase-command",
     "crates/mdbase-runtime",
     "crates/mdbase-testbed-adapter",
+    "crates/mdbase-tasknotes",
 ]
 resolver = "2"
 

@@ -1,0 +1,9 @@
+spec_version: 0.3.0
+name: fixture
+settings:
+  types_folder: _config/mdbase/types
+  contracts_folder: _config/mdbase/contracts
+  explicit_type_keys:
+  - type
+  - types
+  validation: error
